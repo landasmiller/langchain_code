@@ -14,7 +14,7 @@ prompt_template = ChatPromptTemplate.from_messages([
     ('user', '{text}')
 ])
 
-model = ChatGoogleGenerativeAI(model="gemini-2.5-flash-lite", convert_system_message_to_human=True, google_api_key="AIzaSyBd9ANs5-pqdufKa5YnCeCcWNMhMc6dDAM")
+model = ChatGoogleGenerativeAI(model="gemini-2.5-flash-lite", convert_system_message_to_human=True, google_api_key="AI7898zaSyBhhjjgfd9ANs5-pqdufjhbfw246pomb98QWKa5YnCeCcWNloteqamnAW210MhMc6dDAM")
 
 parser = StrOutputParser()
 
@@ -35,4 +35,5 @@ add_routes(
 
 if __name__=="__main__":
     uvicorn.run(app, host="localhost", port=8000)
+
 
